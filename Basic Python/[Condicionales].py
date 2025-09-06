@@ -11,6 +11,12 @@ Las condicionales en Python se implementan utilizando las palabras clave:
 - elif: para agregar condiciones adicionales.
 - else: para ejecutar un bloque de código si ninguna de las condiciones anteriores se cumple.
 
+Al igual existen otros tipos de condicionales como:
+- if anidado: un condicional dentro de otro.
+- operadores lógicos: and, or, not para combinar múltiples condiciones.
+- operadores de comparación: ==, !=, >, <, >=, <= para comparar valores.
+- operadores de pertenencia: in, not in para verificar la pertenencia en una colección
+
 """
 
 # Ejemplo de condicional simple
@@ -57,3 +63,11 @@ else:
 
 # En este ejemplo, se verifica si 'numero' es positivo. Si es así, se verifica si es par o impar.
 # Si 'numero' no es positivo, se imprime que es negativo o cero.
+
+# Ejemplo de condicional con operadores lógicos
+edad = 25 
+ingresos = 3000
+if edad > 18 and ingresos > 2000:
+    print("Eres elegible para el préstamo")
+# Aquí se utilizan los operadores lógicos 'and' para combinar dos condiciones.
+# Ambas condiciones deben ser verdaderas para que se imprima el mensaje.
