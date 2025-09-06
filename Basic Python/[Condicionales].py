@@ -15,7 +15,6 @@ Al igual existen otros tipos de condicionales como:
 - if anidado: un condicional dentro de otro.
 - operadores lógicos: and, or, not para combinar múltiples condiciones.
 - operadores de comparación: ==, !=, >, <, >=, <= para comparar valores.
-- operadores de pertenencia: in, not in para verificar la pertenencia en una colección
 
 """
 
@@ -69,7 +68,7 @@ edad = 25
 ingresos = 3000
 if edad > 18 and ingresos > 2000:
     print("Eres elegible para el préstamo")
-# Aquí se utilizan los operadores lógicos 'and' para combinar dos condiciones.
+# Aquí se utiliza el operador logico 'and' para combinar dos condiciones.
 # Ambas condiciones deben ser verdaderas para que se imprima el mensaje.
 
 # Ejemplo de condicional con el operador logico "or"
@@ -77,4 +76,57 @@ edad = 25
 ingresos = 3000
 if edad > 18 or ingresos > 2000:
     print("Eres elegible para el prestamo")
-# Aquí se utilizan los operadores
+# Aquí se utiliza el operador logico 'or' en el cual 
+# si una de las dos condiciones se cumplen se imprime el mensaje.
+
+# Ejemplo de condicional con el operador logico "not"
+es_estudiante = False
+if not es_estudiante:
+    print("No eres estudiante")
+# En este caso, se utiliza el operador logico 'not' para invertir el valor de 'es_estudiante'.
+# Si 'es_estudiante' es False, la condición se cumple y se imprime el mensaje en cambio si es True no se imprime nada.
+
+# Ejemplo de codicional con el operador de comparacion "=="
+color_favorito = "azul"
+if color_favorito == "azul":
+    print("Tu color favorito es azul")
+# En este ejemplo, se utiliza el operador de comparación '==' para verificar si 'color_favorito' es igual a "azul".
+# Si la condición se cumple, se imprime el mensaje.
+
+# Ejemplo de condicional con el operador de comparacion "!="
+color_favorito = "rojo"
+if color_favorito != "azul":
+    print("Tu color favorito no es azul")
+# En este ejemplo, se utiliza el operador de comparación '!=' para verificar si 'color_favorito' es diferente de "azul".
+# Si la condición se cumple, se imprime el mensaje.
+
+# Ejemplo de condicional con el operador de comparacion ">"
+edad = 20
+if edad > 18:
+    print("Eres mayor de edad")
+# En este ejemplo, se utiliza el operador de comparación '>' para verificar si 'edad' es mayor que 18.
+# Si la condición se cumple, se imprime el mensaje.
+
+# Ejemplo de condicional con el operador de comparacion "<"
+edad = 16
+if edad < 18:
+    print("Eres menor de edad")
+if edad < 18:
+    print("Eres menor de edad")
+# En este ejemplo, se utiliza el operador de comparación '<' para verificar si 'edad' es menor que 18.
+# Si la condición se cumple, se imprime el mensaje.
+
+# Ejemplo de condicional con el operador de comparacion ">="
+edad = 18
+if edad >= 18:
+    print("Eres mayor de edad")
+# Si, este bloque de codigo ya estuvo antes en este archivo pero es para ejemplificar el uso del operador de comparacion ">=".
+# En este ejemplo, se utiliza el operador de comparación '>=' para verificar si 'edad' es mayor o igual que 18.
+# Si la condición se cumple, se imprime el mensaje.
+
+# Ejemplo de condicional con el operador de comparacion "<="
+edad = 16
+if edad <= 18:
+    print("Eres menor de edad")
+# En este ejemplo, se utiliza el operador de comparación '<=' para verificar si 'edad' es menor o igual que 18.
+# Si la condición se cumple, se imprime el mensaje.
