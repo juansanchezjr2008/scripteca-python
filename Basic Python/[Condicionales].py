@@ -64,10 +64,17 @@ else:
 # En este ejemplo, se verifica si 'numero' es positivo. Si es así, se verifica si es par o impar.
 # Si 'numero' no es positivo, se imprime que es negativo o cero.
 
-# Ejemplo de condicional con operadores lógicos
+# Ejemplo de condicional con el operador logico "and"
 edad = 25 
 ingresos = 3000
 if edad > 18 and ingresos > 2000:
     print("Eres elegible para el préstamo")
 # Aquí se utilizan los operadores lógicos 'and' para combinar dos condiciones.
 # Ambas condiciones deben ser verdaderas para que se imprima el mensaje.
+
+# Ejemplo de condicional con el operador logico "or"
+edad = 25
+ingresos = 3000
+if edad > 18 or ingresos > 2000:
+    print("Eres elegible para el prestamo")
+# Aquí se utilizan los operadores
