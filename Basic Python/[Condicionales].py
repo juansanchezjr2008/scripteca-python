@@ -9,3 +9,11 @@ if edad >= 18:
 # En este codigo se verifica si la variable 'edad' es mayor o igual a 18.
 # Si es verdadero, se imprime "Eres mayor de edad".
 
+# Ejemplo de condicional con else
+edad = 16
+if edad >= 18:
+    print("Eres mayor de edad")
+else: 
+    print("Eres menor de edad")
+# En este caso, si la condicion no se cumple, se ejecuta el bloque dentro de 'else'.
+
